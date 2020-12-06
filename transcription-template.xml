@@ -3,8 +3,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Original work title</title>
-        <editor>Editor name</editor>
+        <title>Questio de immortalitate anime</title>
+        <author>Thomas de Aquino</author>
+        <editor>Mark Johnson</editor>
       </titleStmt>
       <publicationStmt>
         <authority/>
@@ -17,10 +18,10 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Location (e.g. Vatican)</settlement>
-            <institution>Library (e.g. Bibliotheca Apostolica)</institution>
-            <collection>(e.g. Vat. lat.)</collection>
-            <idno>(e.g. 3256)</idno>
+            <settlement>Città di Vaticano</settlement>
+            <institution>Bibliotheca Apostolica Vaticano</institution>
+            <collection>Vat. lat.</collection>
+            <idno>781</idno>
           </msIdentifier>
         </msDesc>
       </sourceDesc>
