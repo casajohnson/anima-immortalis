@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/Vault/P5/current/xml/tei/custom/schema/xsd/tei_all.xsd" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
-  <teiHeader>
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+            type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Questio de immortalitate anime</title>
@@ -16,6 +20,9 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
+      <listWit>
+        <witness xml:id="V">Vatican City, BAV, lat. 781, f. 47r–48r</witness>
+      </listWit>
         <msDesc>
           <msIdentifier>
             <settlement>Città di Vaticano</settlement>
@@ -26,11 +33,26 @@
         </msDesc>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body xml:lang="la">
       <div type="textpart">
+      <head>Marco Polo!</head>
         <p>
+          Questio est de immortalitate anime. Et uidetur quod non sit immortalis. <seg n="1">Differentia enim superioris
+          <lb/>generis diuisiua uniformiter participatur ab omnibus inferioribus. Corruptibile autem
+          <lb/>est differentia diuisiua entis. ens enim diuiditur per incorruptibile et incorruptibile. ergo omnia corruptabilia
+          <lb/>uniformiter corruptabilia sunt. Set lapis et plantis et brutum sic corruptabilia sunt quod
+          <lb/>eis corruptis eorum corporum forme desinunt esse. Ergo et homine corrupto eius forma
+          <lb/>scilicet anima humana desinit esse. Ergo et cetera.</seg> <seg n="2">Preterea esse formam essentialiter conuenit anime. Si
+          <lb/>enim per accidens homini inesset, homo non esset quid set quale. Remoto autem eo quod est alicui
+          <lb/>essentiale res illa esse non potest. Cum igitur corrupto corpore anima desinat esse forma
+          <lb/>uidetur quod post corporis corruptionem anima esse non possit. Ergo et cetera.</seg> <seg n="3">Preterea primus defectus
+          <lb/>creature est esse de nihilo et ex hoc alii consequuntur ut mutabilitas et huiusmodi. Set
+          <lb/>anima </seg>
           <!--text goes here -->
         </p>
       </div>
