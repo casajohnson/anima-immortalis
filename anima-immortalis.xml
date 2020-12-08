@@ -9,7 +9,7 @@
       <titleStmt>
         <title>Questio de immortalitate anime</title>
         <author>Thomas de Aquino</author>
-        <editor>Mark Johnson</editor>
+        <editor>Mark Johnson</editor> 
       </titleStmt>
       <publicationStmt>
         <authority/>
@@ -22,6 +22,7 @@
       <sourceDesc>
       <listWit>
         <witness xml:id="V">Vatican City, BAV, lat. 781, f. 47r–48r</witness>
+        <witness xml:id="G">Stuff goes here.</witness>
       </listWit>
         <msDesc>
           <msIdentifier>
