@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Questio de immortalitate anime</title>
+            <author>Thomas de Aquino</author>
+            <editor>Mark Johnson</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title><!-- title [{ms-identifier} Transcription] --></title>
+          <date when="2020-12-21">December 21, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+            <witness xml:id="V" n="bav">Vatican City, BAV, lat. 781, f. 47r–48r</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+      <pb ed="#V" n="47-r" />
+    </front>
+    <body>
+      <div xml:id="itemdid">
+        <head>BAV, lat. 781, f. 47r–48r</head>
+        <p>
+            Questio est de immortalitate anime. Et uidetur quod non sit immortalis. <seg n="1">Differentia enim superioris
+            <lb ed="#V"/>generis diuisiua uniformiter participatur ab omnibus inferioribus. Corruptibile autem
+            <lb ed="#V" />est differentia diuisiua entis. ens enim diuiditur per incorruptibile et incorruptibile. ergo omnia corruptabilia
+            <lb ed="#V" />uniformiter corruptabilia sunt. Set lapis et plantis et brutum sic corruptabilia sunt quod
+            <lb ed="#V" />eis corruptis eorum corporum forme desinunt esse. Ergo et homine corrupto eius forma
+            <lb ed="#V" />scilicet anima humana desinit esse. Ergo et cetera.</seg> <seg n="2">Preterea esse formam essentialiter conuenit anime. Si
+            <lb ed="#V" />enim per accidens homini inesset, homo non esset quid set quale. Remoto autem eo quod est alicui
+            <lb ed="#V" />essentiale res illa esse non potest. Cum igitur corrupto corpore anima desinat esse forma
+            <lb ed="#V" />uidetur quod post corporis corruptionem anima esse non possit. Ergo et cetera.</seg> <seg n="3">Preterea primus defectus
+            <lb ed="#V" />creature est esse de nihilo et ex hoc alii consequuntur ut mutabilitas et huiusmodi. Set
+            <lb ed="#V" />anima <!-- --></seg>
+        </p>    
+      </div>
+    </body>
+  </text>
+</TEI>
